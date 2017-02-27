@@ -1,0 +1,29 @@
+.glyphicon{
+
+  margin-right: 10px;
+  margin-left: 2px;
+
+}
+
+.navbar-btn{
+
+  font-size: 1.2em;
+  background-color: #0082CA;
+  border-radius: 14px;
+  color: white;
+
+}
+
+.navbar-btn:hover {
+
+  font-size: 1.2em;
+  background-color: #004575;
+  border-radius: 14px;
+  color: white;
+}
+
+
+
+.navbar{
+    background-color: white;
+}
