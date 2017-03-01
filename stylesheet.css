@@ -1,29 +1,81 @@
-.glyphicon{
-
-  margin-right: 10px;
-  margin-left: 2px;
-
+/*Start of navbar CSS*/
+.navbar {
+    background-color: white;
+    height: 65px;
+    padding: 8px;
 }
 
-.navbar-btn{
+.glyphicon {
+    margin-right: 16px;
+    margin-left: -14px;
+}
 
-  font-size: 1.2em;
-  background-color: #0082CA;
-  border-radius: 14px;
-  color: white;
-
+.navbar-btn {
+    width: 214px;
+    height: 40px;
+    margin-top: 4px;
+    margin-right: 40px;
+    padding-left: -8px;
+    background-color: #0082CA;
+    border: 2px solid white;
+    border-radius: 16px;
+    font-family: arial;
+    font-size: 16px;
+    text-align: center;
+    color: white;
 }
 
 .navbar-btn:hover {
+    width: 214px;
+    height: 40px;
+    margin-top: 4px;
+    margin-right: 40px;
+    padding-left: -8px;
+    background-color: #004575;
+    border: 2px solid white;
+    border-radius: 16px;
+    font-family: arial;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+b {
+  margin-right: 15px;
+  color: #0082CA;
+  font-size: 16px;
+  font-family: arial;
+}
+.header-link{
+  margin-left: -22px;
+}
+/*End of navbar CSS*/
 
-  font-size: 1.2em;
-  background-color: #004575;
-  border-radius: 14px;
-  color: white;
+/*Start of Footer CSS*/
+#Footer_buttom
+{
+ background-color: rgba(0, 0, 0, 0.16);
+}
+
+#Footer_left
+{
+ background-color: rgba(0, 0, 0, 0.08);
 }
 
 
-
-.navbar{
-    background-color: white;
+h4 {
+  font-weight: bold;
 }
+
+.Footer_ul, li
+{
+ list-style-type: none;
+ padding: 7px;
+
+}
+
+.Footer_Corp
+{
+ list-style-type: none;
+}
+
+/*End of Footer CSS*/
