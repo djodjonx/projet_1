@@ -42,9 +42,9 @@
                 </div>
                 <div class="collapse navbar-collapse text-center" id="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right checkbox-inlin ">
-                        <li> <button type="button" class="btn btn-default navbar-btn"><span class="glyphicon glyphicon-plus-sign" style="vertical-align:-2px" aria-hidden="true"></span>Proposer un trajet</button></li>
-                        <li><a class="header-link" href="#"><b>Inscription</b></a></li>
-                        <li><a class="header-link" href="#"><b>Connexion</b></a></li>
+                        <li> <button type="button" class="btn btn-default navbar-btn" style="width:212px"><span class="glyphicon glyphicon-plus-sign" style="vertical-align:-2px" aria-hidden="true"></span>提出的旅程</button></li>
+                        <li><a class="header-link" href="#"><b>注册</b></a></li>
+                        <li><a class="header-link" href="#" style="margin-right: 260px"><b>登录</b></a></li>
                     </ul>
                 </div>
             </div>
@@ -57,48 +57,59 @@
         <!-- First Row -->
         <div class="row">
             <div class="col-lg-12" id="first_row">
-                <img src="img/fond_2.jpg" id="fisrt_img" style="width:100%" alt="première image">
+                <img src="img/fond_2.jpg" id="fisrt_img" style="width:100%; height: 525px" alt="première image">
             </div>
         </div>
         <!-- End of first Row     -->
 
         <!-- Second Row -->
         <div class="row">
-            <div class="col-lg-5 col-xs-4 " id="second_row_1">
+            <div class="col-lg-3 col-xs-4" id="second_row_1" style="margin-top:14px">
                 <img src="logo/logo_car.png" alt="car" id="car">
             </div>
             <div class="col-lg-7 col-xs-8" id="second_row_2">
-                <h2>En voiture!!!!</h2>
-                <p>Prenez la route en bonne compagnie. </p>
+                <h2>开车!!!!</h2>
+                <p>取好公司的道路 </p>
 
             </div>
             <!-- End of Second Row -->
 
             <!-- Third Raw -->
         </div>
-        <div class="row">
+        <div class="row" style="padding-bottom: 20px">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class=" col-lg-offset-6 col-lg-2" style="padding-left:-25px">
+                        <div class="left-inner-addon">
+                            <i class="fa fa-circle-thin fa-lg"></i>
+                            <input type="text" class="form-control" placeholder="离开" style="width:220px" />
+                        </div>
+                    </div>
+                    <div class="col-lg-offset-1 col-lg-2" id="link2">
+                        <div class="left-inner-addon">
+                            <i class="fa fa-circle-thin fa-lg" aria-hidden="true"></i>
+                            <input type="search" class="form-control" placeholder="目的地" style="width:220px" />
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <div class=" col-md-offset-1 col-md-2">
-                <div class="left-inner-addon">
-                    <i class="fa fa-circle-thin fa-lg"></i>
-                    <input type="text" class="form-control" placeholder="Départ" />
+            <div class="col-lg-6">
+                <div class="row">
+
+                    <div class="col-lg-2">
+                        <div class="left-inner-addon" id="link3">
+                            <i class="fa fa-calendar fa-lg" aria-hidden="true"></i>
+                            <input type="search" class="form-control" placeholder="日期" style="width:220px" />
+                        </div>
+                    </div>
+                    <div class=" col-lg-offset-1 col-lg-2">
+                        <button type="button" class="btn btn-default" style="height: 50px">搜索路线</button>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="left-inner-addon">
-                    <i class="fa fa-circle-thin fa-lg" aria-hidden="true"></i>
-                    <input type="search" class="form-control" placeholder="Destination" />
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="left-inner-addon">
-                    <i class="fa fa-calendar fa-lg" aria-hidden="true"></i>
-                    <input type="search" class="form-control" placeholder="Date" />
-                </div>
-            </div>
-            <div class="col-md-2">
-                <button type="button" class="btn btn-default" style="height: 50px">Chercher un trajet</button>
-            </div>
+
+
         </div>
 
 
@@ -108,13 +119,13 @@
 
     <!-- Fourth Row -->
     <div class="row" id="col_grey">
-        <div class="col-lg-offset-3 col-lg-4 col-xs-12">
-            <img src="img/conductrice.jpg" alt="" style="width: 100%">
+        <div class="col-lg-offset-3 col-lg-4 ">
+            <img src="img/conductrice.jpg" alt="conductrice" style="width: 100% ; margin-left: -80px">
         </div>
-        <div class="col lg-offset-3 col-lg-3 col-xs-12" style="padding-left: 50px ; padding-top: 50px" id="col_grey_text">
-            <h3><strong>Vous prenez le volant <br>bientôt?</strong></h3>
-            <p>Partagez vos frais en prenant des <br> passagers.</p>
-            <button type="button" class="btn btn-default" style="height: 50px; border:silver">Proposer un Trajet</button>
+        <div class=" col-lg-3 col-xs-12" style="margin-left: -45px ; padding-top: 50px" id="col_grey_text">
+            <h3><strong>你开车 <br>不久?</strong></h3>
+            <p>分享通过采取您的成本 <br> 乘客.</p>
+            <button type="button" class="btn btn-default" style="height: 50px; border:silver">要约之旅</button>
             <!-- attention couleur border bouton -->
         </div>
     </div>
@@ -122,134 +133,131 @@
 
     <!-- fifth Row -->
     <div class="row">
-        <div class="col-lg-offset-2 col-lg-6">
-            <p><strong>Des milliers de départs chaque jour.Et vous, où allez-vous?</strong></p>
+        <div class="col-lg-offset-3 col-lg-4">
+            <p><strong>成千上万离港的每个天.和你，你要去哪里？</strong></p>
         </div>
-        <div class="col-lg-offset-2 col-lg-2">
-            <p><small>Nos top trajets</small></p>
+        <div class="col-lg-offset-1 col-lg-1">
+            <p><small>我们的首要之旅</small></p>
         </div>
     </div>
     <!-- End of Fifth Row -->
 
     <!-- Sixth Row -->
     <div class="row">
-        <div class="col-lg-offset-2 col-lg-8">
+        <div class="col-lg-offset-3 col-lg-2">
+            <p>"路径 n 1"</p>
+        </div>
+        <div class="col-lg-2">
+            <p>"路径 n 2"</p>
+        </div>
+        <div class="col-lg-2">
+            <p>"路径 n 3"</p>
         </div>
     </div>
-    <!-- End of Sixth Row -->
+    <!-- End of sixth Row -->
 
-    <!-- Seventh Row -->
-    <div class="row">
-        <div class="col-lg-offset-2 col-lg-10">
-            <p>"trajet n 1"</p>
-            <p>"trajet n 2"</p>
-            <p>"trajet n 3"</p>
-        </div>
-    </div>
-    <!-- End of Seventh Row -->
-
-    <!-- Eight Row -->
+    <!-- seventh Row -->
     <div class="row">
 
         <div class="col-lg-offset-3 col-lg-2">
-            <p><strong>Ce qui va vous plaire</strong></p>
+            <p><strong>什么会请你</strong></p>
 
             <img src="logo/logo_personne.png" alt="">
-            <p><strong>Partez avec qui vous voulez</strong></p>
-            <p>Consultez avis et profils pour choisir vos covoitureurs.</p>
+            <p><strong>你想谁去</strong></p>
+            <p>检查审查和配置文件来选择拼车。.</p>
 
         </div>
         <div class="col-lg-2 text-align">
             <ul>
                 <li><img src="logo/logo_carte.png" alt=""></li>
-                <li><strong>Covoiturez en toute confiance</strong></li>
-                <li>En faisant vérifier une pièce d' idendité,les covoitureurs peuvent renforcer les liens de confiance au sein de notre communauté.</li>
+                <li><strong>有信心拼车</strong></li>
+                <li>通过检查一块idendity的，拼车可以加强我们社会中的信任的纽带。</li>
             </ul>
 
         </div>
         <div class="col-lg-2">
             <ul>
                 <li><img src="logo/logo_bouclier.png" alt=""></li>
-                <li><strong>Voyagez assuré</strong></li>
-                <li>Arrivée à destination garantie en cas d'incident. C'est offert.</li>
-                <li><a href="#">En savoir plus</a></li>
+                <li><strong>旅游保险</strong></li>
+                <li>到达保证事件。这是献。</li>
+                <li><a href="#">了解更多</a></li>
                 <li><img src="logo/axa.png" alt=""></li>
             </ul>
         </div>
 
 
     </div>
-    <!-- End of eight  Row -->
+    <!-- End of seventh  Row -->
 
-    <!-- Nineth Row -->
+    <!-- eight Row -->
     <div class="row">
-        <div class="col-lg-offset-2 col-lg-2">
-            <p><strong>BlaBlaCar, c'est facile</strong></p>
+        <div class="col-lg-offset-3 col-lg-2">
+            <p><strong>TalKingCar,这很容易</strong></p>
         </div>
-        <div class="col-lg-offset-6 col-lg-2">
-            <a href="#">En savoir plus</a>
+        <div class="col-lg-offset-3 col-lg-1">
+            <a href="#">了解更多</a>
         </div>
     </div>
     <div class="row">
 
-      <div class="col-lg-offset-3 col-lg-2">
+        <div class="col-lg-offset-3 col-lg-2">
 
-        <p><strong>1. Envie de bouger ?</strong></p>
-        <p>Publiez ou recherchez votre trajet .</p>
-    </div>
-
-    <div class="col-lg-2">
-        <p><strong>2. Choisissez votre trajet !</strong></p>
-        <p>Les passagers réservent en ligne les places proposées.</p>
-    </div>
-    <div class="col-lg-2">
-        <p><strong>3. C'est parti !</strong></p>
-        <p>Voyagez ensemble puis laissez un avis aux autres covoitureurs.</p>
-
-    </div>
-    </div>
-    <!-- End of Nineth Row -->
-
-    <!--  tenth Row -->
-    <div class="row">
-        <div class="col-lg-offset-2 col-lg-4">
-            <p><strong>Le covoiturage selon BlaBlaCar</strong></p>
+            <p><strong>1.要移动？</strong></p>
+            <p>发布或找到自己的方式。</p>
         </div>
-        <div class="col-lg-offset-2 col-lg-4">
-            <p>" lien Blablalife"</p>
+
+        <div class="col-lg-2">
+            <p><strong>2.选择你的路！</strong></p>
+            <p>乘客网上预定提出的地方。</p>
+        </div>
+        <div class="col-lg-2">
+            <p><strong>3.走！</strong></p>
+            <p>一起旅行，并留下一个通知其他乘客。</p>
+
+        </div>
+    </div>
+    <!-- End of eight Row -->
+
+    <!--  nineth Row -->
+    <div class="row">
+        <div class="col-lg-offset-3 col-lg-3">
+            <p><strong>据拼车 TalKingCar</strong></p>
+        </div>
+        <div class="col-lg-offset-2 col-lg-1">
+            <p>" 链接 TalKinglife"</p>
         </div>
         <div class="row">
-            <div class="col-lg-offset-2">
-                <ul>
-                    <li><img src="3.jpeg" alt=""></li>
-                    <li><strong>Prenez du temps pour vous !</strong></li>
-                    <li>Nouvelle année, nouvelles perspectives ! En 2017, la frénésie du quotidien fait place à des instants de pure détente. On lâche prise, on prend du temps pour soi, et on découvre la France côté nature :)</li>
-                    <li><a href="#">En savoir plus</a></li>
-                </ul>
-                <ul>
-                    <li><img src="4.jpeg" alt=""></li>
-                    <li><strong>Continuez à faire des économies !</strong></li>
-                    <li>Pour faire des économies sur vos trajets et alléger votre budget, covoiturez !</li>
-                    <li><a href="#">En savoir plus</a></li>
+            <div class="col-lg-offset-3 col-lg-2">
 
-                </ul>
-                <ul>
-                    <li><img src="5.jpeg" alt=""></li>
-                    <li><strong>Faites des rencontres !</strong></li>
-                    <li>Le covoiturage, c’est le moment idéal pour faire des rencontres et partager des anecdotes entre covoitureurs ;)</li>
-                    <li><a href="#">En savoir plus</a></li>
-                </ul>
+                <img src="3.jpeg" alt="">
+                <p><strong>花时间为您服务！</strong></p>
+                <p>新的一年，新的机遇！在2017年，每天的喧嚣让位给纯粹的放松时刻。我们插头松动，我们需要时间为我们自己，我们发现自然的一面法国:)</p>
+                <a href="#">了解更多</a>
+            </div>
+            <div class="col-lg-2">
+                <img src="4.jpeg" alt="">
+                <p><strong>不断积蓄！</strong></p>
+                <p>为了节省您的旅行的钱，减轻您的预算拼车！</p>
+                <a href="#">了解更多</a>
 
+            </div>
+            <div class="col-lg-2">
+                <img src="5.jpeg" alt="">
+                <p><strong>社会化！</strong></p>
+                <p>拼车是一个伟大的时间进行社交，分享拼车之间的故事;）</p>
+                <a href="#">了解更多</a>
             </div>
 
         </div>
+
     </div>
-    <!-- End of  tenth Row -->
-    </div>
+
+    <!-- End of  nineth Row -->
+
     <!-- End of Container -->
     <!-- End of body -->
 
-    <body>
+
 
         <footer>
 
@@ -257,12 +265,12 @@
 
                 <div class="row" id="Footer_left">
 
-                    <div class="col-lg-offset-2 col-lg-2">
+                    <div class="col-lg-offset-3 col-lg-1">
 
                         <ul class="Footer_ul">
-                            <li>
-                                <h4>實用信息<h4>
-                        </li>
+
+                                <li><h4>實用信息</h4></li>
+
                         <li><a href="#">怎麼開動這個</a></li>
                         <li><a href="#">信心和寧靜</a></li>
                         <li><a href="#">經驗水平</a></li>
@@ -280,12 +288,12 @@
                       </ul>
                 </div>
 
-                <div class="col-lg-offset-0 col-lg-2">
+                <div class=" col-lg-2">
 
 
                     <ul class="Footer_ul">
                       <li>
-                        <h4>關於<h4>
+                        <h4>關於</h4>
                       </li>
                       <li><a href="#">我們是誰？</a></li>
                       <li><a href="#">ToalKinglife</a></li>
@@ -297,11 +305,11 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-offset-0 col-lg-2">
+                <div class=" col-lg-1">
 
                     <ul class="Footer_ul">
                         <li>
-                          <h4>版本說明<h4>
+                          <h4>版本說明</h4>
                         </li>
 
                       <li><a href="#">條款和條件</a></li>
@@ -312,8 +320,8 @@
 
                 <div class="col-lg-offset-0 col-lg-2">
                   <ul class="Footer_ul1">
-                    <li><a href="#"><img src="img/Google.png" alt="LienGoogle" width="143" height="43"></a></li>
-                    <li><a href="#"><img src="img/Apple.svg" alt="LienApple" width="143" heigth="43"></a></li>
+                    <li><a href="#"><img src="img/Google.png" alt="LienGoogle" style="width:143px; height=43px"></a></li>
+                    <li><a href="#"><img src="img/Apple.svg" alt="LienApple" style="width:143px; height=43px"></a></li>
                   </ul>
 
                   <a href="#"  style=" color:white"><p class="text-muted">Langue<br /><B>Français €</B></p></a>

@@ -4,21 +4,24 @@
 
     /*padding: 8px;*/
 }
+.navbar-brand {
+  padding-left: 300px;
+}
 .navbar-default {
-  margin-bottom: 0px;
+  margin-bottom: -5px;
   /*padding-bottom: 0px;*/
 }
 
 .glyphicon {
     margin-right: 16px;
-    margin-left: -14px;
+    margin-left: -12px;
 }
 
 .navbar-btn {
-    width: 214px;
+
     height: 40px;
     margin-top: 4px;
-    margin-right: 40px;
+    margin-right: 45px;
     padding-left: -8px;
     background-color: #0082CA;
     border: 2px solid white;
@@ -30,10 +33,10 @@
 }
 
 .navbar-btn:hover {
-    width: 214px;
+
     height: 40px;
     margin-top: 4px;
-    margin-right: 40px;
+    margin-right: 45px;
     padding-left: -8px;
     background-color: #004575;
     border: 2px solid white;
@@ -50,7 +53,12 @@ b {
   font-family: arial;
 }
 .header-link{
-  margin-left: -22px;
+  margin-left: -38px;
+
+}
+h2{
+  font-size: 40px;
+  font-weight: bold;
 }
 /*End of navbar CSS*/
 /*start of body CSS*/
@@ -64,6 +72,8 @@ b {
 #second_row_1 {
   padding: 0px;
   margin-left: 0px;
+  font-size: 20px;
+  font-weight: bold;
 
 }
 
@@ -93,7 +103,7 @@ b {
     color: white;
 }
 #col_grey{
-  background-color: silver;
+  background-color: rgba(0, 0, 0, 0.07);
   margin-top: 40px;
   padding-top: 60px;
   padding-left: 80px;
@@ -103,6 +113,11 @@ b {
   height: 50px;
 
 
+}
+
+#link1{
+  padding-left: -25px;
+  /*margin-left: 0px;*/
 }
 /*inner CSS*/
 .left-inner-addon {
