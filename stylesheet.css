@@ -1,31 +1,245 @@
+@media (min-width: 1200px){
+
+
+
+/*divers CSS*/
+
+
+
+a{
+  color:#0082CA;
+  font-size: 17px;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #0082CA;
+
+}
+
 /*Start of navbar CSS*/
-.row {
-    margin-right: 0px;
-    margin-left: -15px;
-  }
+
 .navbar {
     background-color: white;
+    padding-bottom: 8px;
+}
 
-    /*padding: 8px;*/
-}
 .navbar-brand {
-  padding-left: 300px;
+    padding-left: 315px;
 }
+
 .navbar-default {
-  margin-bottom: -5px;
-  /*padding-bottom: 0px;*/
+    margin-bottom: -5px;
+    /*padding-bottom: 0px;*/
 }
 
 .glyphicon {
-    margin-right: 16px;
-    margin-left: -12px;
+    margin-right: 30px;
+    margin-left: -30px;
 }
 
 .navbar-btn {
 
-    height: 40px;
     margin-top: 4px;
-    margin-right: 45px;
+    margin-right: 60px;
+    padding-left: -8px;
+}
+
+.navbar-btn:hover {
+
+  margin-top: 4px;
+  margin-right: 60px;
+  padding-left: -8px;
+}
+
+b {
+    margin-right: 15px;
+    color: #0082CA;
+    font-size: 16px;
+    font-family: arial;
+}
+
+.header-link {
+    margin-left: 0;
+
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/*End of navbar CSS*/
+
+
+/*start of body CSS*/
+
+
+/*first roww CSS*/
+
+#first_row {
+    background-image: url(img/fond_2.jpg);
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
+/*End of first row CSS*/
+
+
+/*second row CSS*/
+
+#second_row_1 {
+    padding: 0px;
+    margin-left: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*End of second row CSS*/
+
+
+/*Third row CSS*/
+
+.grey {
+    background-color: #E3E7E8;
+}
+.grey2{
+  background-color: #F2F6F7;
+}
+
+#col_grey {
+    margin-top: 40px;
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-bottom: 60px;
+}
+
+.form-control {
+    height: 50px;
+}
+
+#link1 {
+    padding-left: -25px;
+    /*margin-left: 0px;*/
+}
+
+
+/*inner CSS*/
+
+.left-inner-addon {
+    position: relative;
+}
+
+.left-inner-addon input {
+    padding-left: 30px;
+}
+
+.left-inner-addon i {
+    position: absolute;
+    padding: 19px 12px;
+    pointer-events: none;
+    color: green
+}
+
+
+/*End of inner CSS*/
+
+
+/*End of third roww CSS*/
+
+.col_grey_text {
+    padding-left: 50px;
+}
+
+.seventh_content {
+    text-align: center;
+}
+
+#info_moving_1{
+  padding-top: 40px;
+  padding-bottom: 25px;
+
+}
+
+#info_moving_2{
+  padding-top: 25px;
+  padding-bottom: 60px;
+}
+
+#Section_title
+{
+  padding-top: 40px;
+}
+
+#Section_title1
+{
+  padding-top: 27px;
+}
+#Section_photo{
+  padding-bottom: 50px;
+}
+
+/*End of body CSS*/
+
+
+/*Start of Footer CSS*/
+
+#Footer_buttom {
+    background-color: rgba(0, 0, 0, 0.16);
+    font-size: 11px;
+}
+
+#Footer_top {
+    background-color: rgba(0, 0, 0, 0.07);
+    /*padding-top: 30px;*/
+}
+
+
+
+.Footer_ul1{
+  padding-top: 50px;
+}
+
+.Footer_Logo {
+    padding-top: 20px;
+    display: flex;
+}
+
+.follow_logo {
+    padding: 0px 5px 0px 5px;
+}
+
+em {
+  color: black;
+  font-size: 17px;
+
+}
+.footer_button{
+  color: silver;
+  background-color: white;
+  text-align: left;
+  width:150px;
+  height: 50px;
+  border: 1px solid silver;
+  border-radius: 3px;
+}
+#info_assur{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*End of Footer CSS*/
+/*End of Media screen*/
+}
+
+/*Boutton CSS*/
+
+.btn-default {
+    width: 250px;
+    height: 40px;
     padding-left: -8px;
     background-color: #0082CA;
     border: 2px solid white;
@@ -34,64 +248,6 @@
     font-size: 16px;
     text-align: center;
     color: white;
-}
-
-.navbar-btn:hover {
-
-    height: 40px;
-    margin-top: 4px;
-    margin-right: 45px;
-    padding-left: -8px;
-    background-color: #004575;
-    border: 2px solid white;
-    border-radius: 16px;
-    font-family: arial;
-    font-size: 16px;
-    text-align: center;
-    color: white;
-}
-b {
-  margin-right: 15px;
-  color: #0082CA;
-  font-size: 16px;
-  font-family: arial;
-}
-.header-link{
-  margin-left: -38px;
-
-}
-h2{
-  font-size: 40px;
-  font-weight: bold;
-}
-/*End of navbar CSS*/
-/*start of body CSS*/
-#first_row {
-  padding: 0px;
-  margin-top: 0px;
-
-
-}
-
-#second_row_1 {
-  padding: 0px;
-  margin-left: 0px;
-  font-size: 20px;
-  font-weight: bold;
-
-}
-
-.btn-default {
-  width: 250px;
-  height: 40px;
-  padding-left: -8px;
-  background-color: #0082CA;
-  border: 2px solid white;
-  border-radius: 16px;
-  font-family: arial;
-  font-size: 16px;
-  text-align: center;
-  color: white;
 }
 
 .btn-default:hover {
@@ -106,98 +262,38 @@ h2{
     text-align: center;
     color: white;
 }
-.grey{
-  background-color: rgba(0, 0, 0, 0.07)
-}
-#col_grey{
-  
-  margin-top: 40px;
-  padding-top: 60px;
-  padding-left: 80px;
-  padding-bottom: 60px;
-}
-.form-control{
-  height: 50px;
-
-
-}
-
-#link1{
-  padding-left: -25px;
-  /*margin-left: 0px;*/
-}
-/*inner CSS*/
-.left-inner-addon {
-    position: relative;
-}
-.left-inner-addon input {
-    padding-left: 30px;
-
-}
-.left-inner-addon i {
-    position: absolute;
-    padding: 19px 12px;
-    pointer-events: none;
-    color: green
-}
-
-
-/*End of inner CSS*/
-.col_grey_text{
-padding-left: 50px;
-
-}
-.seventh_content{
-  text-align: center;
-}
-/*End of body CSS*/
-/*Start of Footer CSS*/
-#Footer_buttom
-{
-background-color: rgba(0, 0, 0, 0.16);
-padding-top: 10px;
-}
-
-#Footer_left
-{
-background-color: rgba(0, 0, 0, 0.07);
-padding-top: 30px;
-}
-
-
-
-.Footer_ul, li
-{
-list-style-type: none;
-padding: 7px;
-}
-
-/*.Footer_ul1
-{
-
-}*/
-
-.Footer_Corp
-{
-list-style-type: none;
-}
-.footer button{
+.btn-lg{
   background-color: white;
-  border: 1px solid grey;
+  border: none;
+}
+.btn-lg:hover{
+  background-color: white;
+  border: 2px solid silver;
 }
 
-.Footer_Logo
-{
-padding-top: 20px;
-display: flex;
-/*justify-content: space-between;*/
+/*ENd of Button CSS*/
+
+.Footer_ul, li {
+    list-style-type: none;
+    padding-top:  7px;
 }
-.follow_logo{
-  padding: 0px 5px 0px 5px;
+.Footer_ul, h4 {
+    list-style-type: none;
+    padding-top:  20px;
 }
-p
-{
-text-align: left;
+/*Forçage Bootstrap pb marge containeur*/
+
+.row {
+    margin-right: 0px;
+    margin-left: -15px;
 }
 
-/*End of Footer CSS*/
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+/*Fin Forçage Bootstrap pb marge containeur*/
