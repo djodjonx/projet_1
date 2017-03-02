@@ -1,4 +1,8 @@
 /*Start of navbar CSS*/
+.row {
+    margin-right: 0px;
+    margin-left: -15px;
+  }
 .navbar {
     background-color: white;
 
@@ -102,8 +106,11 @@ h2{
     text-align: center;
     color: white;
 }
+.grey{
+  background-color: rgba(0, 0, 0, 0.07)
+}
 #col_grey{
-  background-color: rgba(0, 0, 0, 0.07);
+  
   margin-top: 40px;
   padding-top: 60px;
   padding-left: 80px;
@@ -140,6 +147,9 @@ h2{
 padding-left: 50px;
 
 }
+.seventh_content{
+  text-align: center;
+}
 /*End of body CSS*/
 /*Start of Footer CSS*/
 #Footer_buttom
@@ -162,23 +172,29 @@ list-style-type: none;
 padding: 7px;
 }
 
-.Footer_ul1
+/*.Footer_ul1
 {
 
-}
+}*/
 
 .Footer_Corp
 {
 list-style-type: none;
+}
+.footer button{
+  background-color: white;
+  border: 1px solid grey;
 }
 
 .Footer_Logo
 {
 padding-top: 20px;
 display: flex;
-justify-content: space-between;
+/*justify-content: space-between;*/
 }
-
+.follow_logo{
+  padding: 0px 5px 0px 5px;
+}
 p
 {
 text-align: left;
