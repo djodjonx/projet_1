@@ -1,67 +1,45 @@
-@media (min-width: 1200px){
+/*@media for lg Bootstrap screen*/
 
-
-
-/*divers CSS*/
-
-
-
-a{
-  color:#0082CA;
-  font-size: 17px;
+@media (min-width: 1200px) {
+    /*Start of navbar CSS*/
+    /*navbar class CSS*/
+    .navbar {
+        background-color: white;
+        padding-bottom: 8px;
+    }
+    .navbar-brand {
+        padding-left: 315px;
+    }
+    .navbar-default {
+        margin-bottom: -5px;
+        /*padding-bottom: 0px;*/
+    }
+    .glyphicon {
+        margin-right: 30px;
+        margin-left: -30px;
+    }
+    .navbar-btn {
+        margin-top: 4px;
+        margin-right: 60px;
+    }
+    .navbar-btn:hover {
+        margin-top: 4px;
+        margin-right: 60px;
+    }
+    .header-link {
+        margin-left: 0;
+    }
+    /*End of navbar class CSS*/
 }
 
-a:hover{
-  text-decoration: none;
-  color: #0082CA;
 
-}
-
-/*Start of navbar CSS*/
-
-.navbar {
-    background-color: white;
-    padding-bottom: 8px;
-}
-
-.navbar-brand {
-    padding-left: 315px;
-}
-
-.navbar-default {
-    margin-bottom: -5px;
-    /*padding-bottom: 0px;*/
-}
-
-.glyphicon {
-    margin-right: 30px;
-    margin-left: -30px;
-}
-
-.navbar-btn {
-
-    margin-top: 4px;
-    margin-right: 60px;
-    padding-left: -8px;
-}
-
-.navbar-btn:hover {
-
-  margin-top: 4px;
-  margin-right: 60px;
-  padding-left: -8px;
-}
+/*End of @Media for lg Bootstrap screen*/
 
 b {
     margin-right: 15px;
     color: #0082CA;
     font-size: 16px;
     font-family: arial;
-}
-
-.header-link {
-    margin-left: 0;
-
 }
 
 h2 {
@@ -74,18 +52,6 @@ h2 {
 
 
 /*start of body CSS*/
-
-
-/*first roww CSS*/
-
-#first_row {
-    background-image: url(img/fond_2.jpg);
-    padding: 0px;
-    margin-top: 0px;
-}
-
-
-/*End of first row CSS*/
 
 
 /*second row CSS*/
@@ -101,29 +67,10 @@ h2 {
 /*End of second row CSS*/
 
 
-/*Third row CSS*/
-
-.grey {
-    background-color: #E3E7E8;
-}
-.grey2{
-  background-color: #F2F6F7;
-}
-
-#col_grey {
-    margin-top: 40px;
-    padding-top: 60px;
-    padding-left: 80px;
-    padding-bottom: 60px;
-}
+/*fourth CSS*/
 
 .form-control {
     height: 50px;
-}
-
-#link1 {
-    padding-left: -25px;
-    /*margin-left: 0px;*/
 }
 
 
@@ -140,67 +87,128 @@ h2 {
 .left-inner-addon i {
     position: absolute;
     padding: 19px 12px;
-    pointer-events: none;
-    color: green
+    color: #00A87E;
 }
 
 
 /*End of inner CSS*/
 
 
-/*End of third roww CSS*/
+/* fourth row CSS*/
 
-.col_grey_text {
-    padding-left: 50px;
+#fourth_row {
+    padding-top: 42px;
+    padding-bottom: 42px;
 }
 
-.seventh_content {
+
+/*End of fourth row CSS*/
+
+
+/*fifth row CSS*/
+
+#fifth_row {
+    padding-top: 35px;
+}
+
+
+/*End of fifth CSS*/
+
+
+/*sixth row CSS*/
+
+#sixth_row {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+/*End of sixth row CSS*/
+
+
+/*seventh row CSS*/
+
+#seventh_row {
+    padding-top: 35px;
+}
+
+
+/*End of seventh row CSS*/
+
+
+/*height row CSS*/
+
+#height_row {
+    padding-top: 55px;
+    padding-bottom: 90px;
     text-align: center;
 }
 
-#info_moving_1{
-  padding-top: 40px;
-  padding-bottom: 25px;
 
-}
+/*End of height row CSS*/
 
-#info_moving_2{
-  padding-top: 25px;
-  padding-bottom: 60px;
-}
 
-#Section_title
-{
-  padding-top: 40px;
+/*ninth row CSS*/
+
+#ninth_row {
+    padding-top: 30px;
 }
 
-#Section_title1
-{
-  padding-top: 27px;
+
+/*End of ninth row CSS*/
+
+
+/*tenth row CSS*/
+
+#tenth_row {
+    padding-bottom: 50px;
 }
-#Section_photo{
-  padding-bottom: 50px;
+
+
+/*End of tenth row CSS*/
+
+
+/*eleventh row*/
+
+#eleventh_row {
+    padding-top: 30px;
 }
+
+
+/*End of eleventh row*/
+
+
+/*twelfth row*/
+
+#twelfth_row {
+    padding-top: 15px;
+    padding-bottom: 80px;
+}
+
+
+/*End of twelfth row*/
+
 
 /*End of body CSS*/
 
 
 /*Start of Footer CSS*/
 
-#Footer_buttom {
-    background-color: rgba(0, 0, 0, 0.16);
-    font-size: 11px;
+#footer_top {
+    padding-bottom: 25px
 }
 
-#Footer_top {
-    background-color: rgba(0, 0, 0, 0.07);
-    /*padding-top: 30px;*/
+#footer_corpo {
+    background-color: #F9F9F9;
+    padding-top: 50px
 }
 
+#footer_bottom {
+    padding-top: 25px;
+}
 
-
-.Footer_ul1{
-  padding-top: 50px;
+.Footer_ul1 {
+    padding-top: 50px;
 }
 
 .Footer_Logo {
@@ -212,35 +220,56 @@ h2 {
     padding: 0px 5px 0px 5px;
 }
 
-em {
-  color: black;
-  font-size: 17px;
 
-}
-.footer_button{
-  color: silver;
-  background-color: white;
-  text-align: left;
-  width:150px;
-  height: 50px;
-  border: 1px solid silver;
-  border-radius: 3px;
-}
-#info_assur{
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+/*End of footer class*/
+
 
 /*End of Footer CSS*/
-/*End of Media screen*/
+
+
+/*balise CSS*/
+
+a {
+    color: #0082CA;
+    font-size: 17px;
 }
+
+a:hover {
+    text-decoration: none;
+    color: #0082CA;
+}
+
+em {
+    color: black;
+    font-size: 17px;
+}
+
+strong {
+    color: #00A87E;
+    font-size: 40px;
+}
+
+small {
+    color: #00A87E;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+
+/*End of balise CSS*/
+
 
 /*Boutton CSS*/
 
 .btn-default {
     width: 250px;
     height: 40px;
-    padding-left: -8px;
     background-color: #0082CA;
     border: 2px solid white;
     border-radius: 16px;
@@ -253,7 +282,6 @@ em {
 .btn-default:hover {
     width: 250px;
     height: 40px;
-    padding-left: -8px;
     background-color: #004575;
     border: 2px solid white;
     border-radius: 16px;
@@ -262,30 +290,60 @@ em {
     text-align: center;
     color: white;
 }
-.btn-lg{
-  background-color: white;
-  border: none;
+
+.btn-trajet {
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #727272;
 }
-.btn-lg:hover{
-  background-color: white;
-  border: 2px solid silver;
+
+.btn-trajet:hover {
+    background-color: white;
+    border: 1px solid silver;
 }
+
+.footer_button {
+    color: silver;
+    background-color: white;
+    text-align: left;
+    width: 150px;
+    height: 50px;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
 
 /*ENd of Button CSS*/
 
+
+/*Footer CSS*/
+
 .Footer_ul, li {
     list-style-type: none;
-    padding-top:  7px;
+    padding-top: 7px;
 }
+
 .Footer_ul, h4 {
     list-style-type: none;
-    padding-top:  20px;
+    padding-top: 20px;
 }
+
+
+/*End of Footer CSS*/
+
+
 /*Forçage Bootstrap pb marge containeur*/
+
 
 .row {
     margin-right: 0px;
-    margin-left: -15px;
+    margin-left: 0px;
 }
 
 .container-fluid {
@@ -297,3 +355,14 @@ em {
 
 
 /*Fin Forçage Bootstrap pb marge containeur*/
+
+
+/*body CSS*/
+
+.grey {
+    background-color: #F2F2F2;
+}
+
+.grey2 {
+    background-color: #F9F9F9;
+}
