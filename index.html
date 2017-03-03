@@ -5,9 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="logo/Logo1.png" />
 
     <title>TalkingCar</title>
-    <link rel="icon" type="image/png" href="logo/talking_icon.png" />
+
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -25,7 +26,7 @@
 <!-- Start of body -->
 
 <body>
-
+<div class="container-fluid">
     <!-- Start of header -->
     <header>
         <!-- Star of navabar Bootstrap -->
@@ -52,7 +53,7 @@
                     <ul class="nav navbar-nav navbar-right checkbox-inlin ">
                         <li> <button type="button" class="btn btn-default navbar-btn" style="width:212px"><span class="glyphicon glyphicon-plus-sign" style="vertical-align:-2px" aria-hidden="true"></span>提出的旅程</button></li>
                         <li><a class="header-link" href="#"><b>注册</b></a></li>
-                        <li><a class="header-link" href="#" style="margin-right: 320px"><b>登录</b></a></li>
+                        <li><a class="header-link" href="#" id="navbar_right_link" style=""><b>登录</b></a></li>
                     </ul>
                 </div>
                 <!-- End of Collapse navbar -->
@@ -63,21 +64,21 @@
     <!-- End of header -->
 
     <!-- Container -->
-    <div class="container-fluid">
+
         <!-- First Row image -->
         <div class="row" id="first_row">
             <div class="col-lg-12">
-                <img src="img/fond_2.jpg" id="fisrt_img" style="width:100%; height: 525px " alt="première image">
+                <img src="img/fond_1.png" class="img-responsive" id="fisrt_img" style="width:100%" alt="première image">
             </div>
         </div>
         <!-- End of first Row     -->
 
         <!-- Second Row logo and text -->
         <div class="row" id="second_row">
-            <div class="col-lg-3 col-xs-12" id="second_row_1"  >
-                <img src="logo/logo_car.png" alt="car"style="width:100%; margin-top:14px" id="car">
+            <div class="col-lg-offset-0 col-lg-3  col-md-offset-0 col-md-6  col-xs-offset-0 col-xs-12" id="second_row_1">
+                <img src="logo/logo_car.png" alt="car" style="width:100%; margin-top:14px" id="car">
             </div>
-            <div class="col-lg-7 col-xs-offset-4 col-xs-8" id="second_row_2">
+            <div class="col-lg-offset-0 col-lg-7 col-md-offset-0 col-md-3  col-xs-offset-4 col-xs-8" id="second_row_2">
                 <h2>开车!!!!</h2>
                 <p>取好公司的道路 </p>
 
@@ -89,33 +90,33 @@
     <!-- Third Raw inputs and button -->
 
     <div class="row" style="padding-bottom: 20px">
-        <div class="col-lg-6  ">
+        <div class="col-lg-6 col-md-offset-0 col-md-6 ">
             <div class="row">
-                <div class=" col-lg-offset-6 col-lg-2   " style="padding-left:-25px">
+                <div class=" col-lg-offset-6  col-lg-2 col-md-offset-2 col-md-4 " style="padding-left:-25px">
                     <div class="left-inner-addon">
                         <i class="fa fa-circle-thin fa-lg"></i>
-                        <input type="text" class="form-control" placeholder="离开" style="width:220px" />
+                        <input type="text" class="form-control" placeholder="离开" />
                     </div>
                 </div>
 
-                <div class="col-lg-offset-1 col-lg-2">
+                <div class="col-lg-offset-1 col-lg-2 col-md-offset-2 col-md-4 ">
                     <div class="left-inner-addon">
                         <i class="fa fa-circle-thin fa-lg" aria-hidden="true"></i>
-                        <input type="search" class="form-control" placeholder="目的地" style="width:220px" />
+                        <input type="search" class="form-control" placeholder="目的地"  />
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-lg-6 ">
+        <div class=" col-lg-offset-0 col-lg-6 col-md-offset-1 col-md-4">
             <div class="row">
-                <div class="col-lg-2 ">
+                <div class=" col-lg-offset-0 col-lg-2  " pad>
                     <div class="left-inner-addon">
                         <i class="fa fa-calendar fa-lg" aria-hidden="true"></i>
-                        <input type="search" class="form-control" placeholder="日期" style="width:220px" />
+                        <input type="search" class="form-control" placeholder="日期" />
                     </div>
                 </div>
-                <div class=" col-lg-offset-1 col-lg-2  ">
+                <div class=" col-lg-offset-1 col-lg-2 col-md-offset-1 col-md-offset-4  ">
                     <button type="button" class="btn btn-default" style="height: 50px">搜索路线</button>
                 </div>
             </div>
@@ -126,10 +127,10 @@
 
     <!-- Fourth Row image driver and text+button-->
     <div class="row grey" id="fourth_row">
-        <div class="col-lg-offset-3 col-lg-4 col-xs-offset-1  col-xs-10 ">
+        <div class="col-lg-offset-3 col-lg-4 col-md-offset-0 col-md-12 col-sm-offset-0 col-sm-12 col-xs-offset-1  col-xs-10 ">
             <img src="img/conductrice.jpg" alt="conductrice" style="width: 100% " class="img-rounded">
         </div>
-        <div class=" col-lg-3  col-xs-8" style="margin-left:20px; padding-top: 80px" id="col_grey_text">
+        <div class=" col-lg-offset-0 col-lg-3 col-md-offset-3 col-md-3 col-sm-offset-4 col-sm-8 col-xs-offset-1 col-xs-8"  id="col_grey_text">
             <h3>你开车 <br>不久?</h3>
             <p>分享通过采取您的成本 <br> 乘客.</p>
             <button type="button" class="btn btn-default" style="height: 50px; border:silver">要约之旅</button>
@@ -140,10 +141,10 @@
 
     <!-- fifth Row Destination and price title-->
     <div class="row grey2 " id="fifth_row">
-        <div class="col-lg-offset-3 col-lg-5 col-xs-12">
+        <div class="col-lg-offset-3 col-lg-5 col-sm-offset-3 col-sm-8 col-xs-offset-0 col-xs-12">
             <h3>成千上万离港的每个天.和你，你要去哪里？</h3>
         </div>
-        <div class=" col-lg-1">
+        <div class="col-lg-offset-0 col-lg-1 col-sm-offset-5 col-sm-4">
             <p>我们的首要之旅</p>
         </div>
     </div>
@@ -151,19 +152,19 @@
 
     <!-- Sixth Row Traject -->
     <div class="row grey2 " id="sixth_row">
-        <div class="col-lg-offset-3 col-lg-2 col-xs-offset-1 col-xs-offset-10">
-            <button class="btn-trajet">Bordeaux <span class="pull-right"> <small>à partir de</small></span><br>
-                  Toulouse<span class="pull-right"><strong>13€</strong></span>
+        <div class="col-lg-offset-3 col-lg-2 col-md-offset-0 col-md-4  col-xs-12">
+            <button class="btn-trajet">上海<span class="pull-right"> <small>從</small></span><br>
+                  北京<span class="pull-right"><strong>1300¥</strong></span>
                 </button>
         </div>
-        <div class="col-lg-2 col-xs-offset-1 col-xs-offset-10">
-            <button class="btn-trajet">Nantes <span class="pull-right"> <small>à partir de</small></span><br>
-                        Renne<span class="pull-right"><strong>6€</strong></span>
+        <div class="col-lg-2 col-md-offset-0 col-md-4 col-xs-12">
+            <button class="btn-trajet">成都<span class="pull-right"> <small>從</small></span><br>
+                        長沙<span class="pull-right"><strong>600¥</strong></span>
                     </button>
         </div>
-        <div class="col-lg-3 col-xs-offset-1 col-xs-offset-10">
-            <button class="btn-trajet">Paris <span class="pull-right"> <small>à partir de</small></span><br>
-                      Lyon<span class="pull-right"><strong>6€</strong></span>
+        <div class="col-lg-3 col-md-offset-0 col-md-4 col-xs-12">
+            <button class="btn-trajet">桂林<span class="pull-right"> <small>從</small></span><br>
+                      三亞<span class="pull-right"><strong>400¥</strong></span>
                   </button>
         </div>
     </div>
@@ -171,7 +172,7 @@
 
     <!-- Seventh Row Information and logo title -->
     <div class="row" id="seventh_row">
-        <div class="col-lg-offset-3 col-lg-3 col-xs-offset-3 col-xs-6">
+        <div class="col-lg-offset-3 col-lg-3 col-md-offset-5 col-md-4 col-sm-offset-5 col-sm-4 col-xs-offset-4 col-xs-6">
             <h3>什么会请你</h3>
         </div>
     </div>
@@ -212,10 +213,10 @@
 
     <!-- ninth Row title and link info moving -->
     <div class="row grey2 " id="ninth_row">
-        <div class="col-lg-offset-3 col-lg-2 col-xs-offset-2 col-xs-10">
+        <div class="col-lg-offset-3 col-lg-2 col-md-offset-4 col-md-4 col-sm-offset-2 col-sm-3 col-xs-offset-2 col-xs-10">
             <h3>TalKingCar,这很容易<h3>
         </div>
-        <div class="col-lg-offset-3 col-lg-1 col-xs-offset-5 col-xs-3">
+        <div class="col-lg-offset-3 col-lg-1 col-md-offset-4 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-5 col-xs-3">
                 <a href="#"><b>了解更多</b></a>
         </div>
     </div>
@@ -223,15 +224,15 @@
 
         <!-- tenth row info moving-->
     <div class="row grey2" id="tenth_row">
-      <div class="col-lg-offset-3 col-lg-2 col-xs-offset-3 col-xs-9">
+      <div class="col-lg-offset-3 col-lg-2 col-md-offset-4 col-md-4 col-sm-offset-2 col-sm-2 col-xs-offset-3 col-xs-8 " >
           <h5>1.要移动？</h5>
           <p>发布或找到自己的方式。</p>
       </div>
-      <div class="col-lg-2 col-xs-offset-3 col-xs-9">
+      <div class="col-lg-off-0 col-lg-2 col-md-offset-4 col-md-4 col-sm-offset-1 col-sm-2 col-xs-offset-3 col-xs-8">
           <h5>2.选择你的路！</h5>
           <p>乘客网上预定提出的地方。</p>
       </div>
-      <div class="col-lg-2 col-xs-offset-3 col-xs-9">
+      <div class="col-lg-off-0 col-lg-2 col-md-offset-4 col-md-4 col-sm-offset-1 col-sm-2 col-xs-offset-3 col-xs-8">
           <h5>3.走！</h5>
           <p>一起旅行，并留下一个通知其他乘客。</p>
       </div>
@@ -240,10 +241,10 @@
 
         <!-- eleventh Row title carpooling -->
         <div class="row" id="eleventh_row">
-            <div class="col-lg-offset-3 col-lg-2 col-xs-offset-4 col-xs-8">
+            <div class="col-lg-offset-3 col-lg-2 col-md-offset-5 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-4 col-xs-8">
                 <h3>據拼車</h3>
         </div>
-        <div class="col-lg-offset-3 col-lg-1 col-xs-offset-4 col-xs-8 text-left" id="Section_title1">
+        <div class="col-lg-offset-3 col-lg-1 col-md-offset-5 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-4 col-xs-8 text-left">
             <a href="#"><b>TalKingLife</b></a>
         </div>
     </div>
@@ -251,7 +252,7 @@
 
     <!--  twelfth Row pictures and link carpooling-->
     <div class="row" id="twelfth_row">
-        <div class="col-lg-offset-3 col-lg-2 ">
+        <div class="col-lg-offset-3 col-lg-2 col-xs-offset-1 col-xs-10 ">
             <a href="#"><img src="img/Photo_bas1.jpg" class="img-rounded img-responsive" alt="montagne" style="width: 100% "></a>
             <div class="">
                 <h4>花時間為您服務！</h4>
@@ -259,7 +260,7 @@
                 <a href="#">了解更多</a>
             </div>
         </div>
-        <div class="col-lg-2 ">
+        <div class=" col-lg-offset-0 col-lg-2 col-xs-offset-1 col-xs-10 ">
             <a href="#"><img src="img/Photo_bas2.jpg" class="img-rounded img-responsive" alt="Girls" style="width: 100%"></a>
             <div class="caption">
                 <h4>不斷積蓄！</h4>
@@ -267,7 +268,7 @@
                 <a href="#">了解更多</a>
             </div>
         </div>
-        <div class="col-lg-2 ">
+        <div class="col-lg-offset-0 col-lg-2 col-xs-offset-1 col-xs-10">
             <a href="#"><img src="img/Photo_bas3.jpg" class="img-rounded img-responsive" alt="Couple" style="width: 100%"></a>
             <div class="caption">
                 <h4>社會化！</h4>
@@ -291,7 +292,7 @@
                 <!-- Start of first column footer row -->
                 <div class="col-lg-offset-3">
                     <div class="row">
-                        <div class="col-lg-offset-0 col-lg-2 col-xs-offset-2 col-xs-10">
+                        <div class="col-lg-offset-0 col-lg-2 col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-3 col-xs-6">
                             <ul class="Footer_ul">
                                 <li>
                                     <h4>實用信息</h4>
@@ -311,7 +312,7 @@
                         <!-- End of first column footer row -->
 
                         <!-- Start of second column footer row -->
-                        <div class="col-lg-offset-0 col-lg-2 col-xs-offset-2 col-xs-10">
+                        <div class="col-lg-offset-0 col-lg-2 col-md-offset-2 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-3 col-xs-6">
 
                             <ul class="Footer_ul">
                                 <li>
@@ -329,7 +330,7 @@
                         <!-- End of second column footer row -->
 
                         <!-- Start of third column footer row -->
-                        <div class="col-lg-offset-0 col-lg-2 col-xs-offset-2 col-xs-10">
+                        <div class="col-lg-offset-0 col-lg-2 col-md-offset-2 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-3 col-xs-6">
 
                             <ul class="Footer_ul">
                                 <li>
@@ -343,7 +344,7 @@
                         <!-- End of third column footer row -->
 
                         <!-- Start of fourth column row -->
-                        <div class="col-lg-offset-0 col-lg-2 col-xs-offset-2 col-xs-9">
+                        <div class="col-lg-offset-0 col-lg-2 col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-3 col-xs-6">
                             <ul class="Footer_ul1">
                                 <li>
                                     <a href="#"><img src="logo/Google.png" alt="LienGoogle" style="width:143px; height=43px"></a>
@@ -375,12 +376,12 @@
             <!-- Start of row sub footer -->
             <div class="row grey2" id="footer_corpo">
                 <div class="col-lg-offset-3 col-lg-2">
-                            <p class="text-muted">TalKingcar, 2017 ©</p>
+                    <p class="text-muted">TalKingcar, 2017 ©</p>
                 </div>
             </div>
             <div class="row grey" id="footer_bottom">
                 <div class="col-lg-offset-3 col-lg-6">
-                            <p class="text-muted">TalKingcar是連接誰想要打個長途旅行駕駛者和乘客拼車服務。通過共享汽車，降低成本和旅行比較便宜。<br />相信共乘您的下次旅行，並與其他人的旅行。</p>
+                    <p class="text-muted">TalKingcar是連接誰想要打個長途旅行駕駛者和乘客拼車服務。通過共享汽車，降低成本和旅行比較便宜。<br />相信共乘您的下次旅行，並與其他人的旅行。</p>
                 </div>
             </div>
 

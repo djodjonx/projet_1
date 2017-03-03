@@ -1,6 +1,6 @@
-/*@media for lg Bootstrap screen*/
+/*@media for lg Bootstrap screen min 1200px*/
 
-@media (min-width: 1200px) {
+@media  screen and (min-width: 1300px) {
     /*Start of navbar CSS*/
     /*navbar class CSS*/
     .navbar {
@@ -29,23 +29,96 @@
     .header-link {
         margin-left: 0;
     }
+    #navbar_right_link{
+      margin-right: 300px;
+    }
+    .form-control{
+      width:12vw;
+    }
+    #col_grey_text{
+      margin-left:20px;
+       padding-top: 80px;
+    }
+    .btn-trajet{
+      width: 16vw;
+
+    }
+    /*End of navbar class CSS*/
+}
+/*End of @media 1300px*/
+/*@media for lg Bootstrap screen min 1200px and max 1300px*/
+
+@media  screen and (min-width: 1200px) and (max-width: 1300px) {
+    /*Start of navbar CSS*/
+    /*navbar class CSS*/
+
+    .form-control{
+      width: 12vw;
+    }
+    .btn-trajet{
+      width: 16vw;
+
+    }
+    /*End of navbar class CSS*/
+}
+/*End of @media 1300px*/
+/*@media for lg Bootstrap screen min 993px and 1250px*/
+
+@media  screen and (min-width: 992px) and (max-width: 1199px) {
+    /*Start of navbar CSS*/
+    /*navbar class CSS*/
+
+    .form-control{
+      width: 30vw;
+    }
+    .btn-trajet{
+      width: 30vw;
+
+
+    }
+    /*End of navbar class CSS*/
+}
+/*End of @media screen min 993px and 1250px*/
+
+
+/*@media for lg Bootstrap screen min 768px and max 992*/
+
+@media  screen and (min-width: 320px) and (max-width: 991px){
+    /*Start of navbar CSS*/
+    /*navbar class CSS*/
+    .navbar {
+        background-color: white;
+        padding-bottom: 8px;
+    }
+    /*.navbar-brand {
+        padding-left: 315px;
+    }*/
+    .navbar-default {
+        margin-bottom: -5px;
+        /*padding-bottom: 0px;*/
+    }
+    .glyphicon {
+        margin-right: 30px;
+        margin-left: -30px;
+    }
+
+    .header-link {
+        margin-left: 0;
+    }
+    .form-control{
+      width: 100vw;
+    }
+    .btn-trajet{
+      width: 100vw;
+
+    }
     /*End of navbar class CSS*/
 }
 
 
+
 /*End of @Media for lg Bootstrap screen*/
 
-b {
-    margin-right: 15px;
-    color: #0082CA;
-    font-size: 16px;
-    font-family: arial;
-}
-
-h2 {
-    font-size: 40px;
-    font-weight: bold;
-}
 
 
 /*End of navbar CSS*/
@@ -238,6 +311,14 @@ a:hover {
     text-decoration: none;
     color: #0082CA;
 }
+b {
+    margin-right: 15px;
+    color: #0082CA;
+    font-size: 16px;
+    font-family: arial;
+}
+
+
 
 em {
     color: black;
@@ -253,6 +334,11 @@ small {
     color: #00A87E;
     font-size: 13px;
     font-weight: lighter;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 h5 {
@@ -292,7 +378,7 @@ h5 {
 }
 
 .btn-trajet {
-    width: 300px;
+
     height: 80px;
     background-color: white;
     border: 1px solid white;
@@ -341,7 +427,7 @@ h5 {
 /*Forçage Bootstrap pb marge containeur*/
 
 
-.row {
+/*.row {
     margin-right: 0px;
     margin-left: 0px;
 }
@@ -351,7 +437,7 @@ h5 {
     padding-left: 0px;
     margin-right: 0px;
     margin-left: 0px;
-}
+}*/
 
 
 /*Fin Forçage Bootstrap pb marge containeur*/
